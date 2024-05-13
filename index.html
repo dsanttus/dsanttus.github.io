@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Days+One&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Faster+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <title>PAGINA INICIAL</title>
+</head>
+    <!--CABECALHO-->
+<header>
+    <div class="menu">
+        <nav>
+            <div class="menu1">
+                <a href="index.html">
+                <img src="imagens/logonovo.png" class="logomenu" alt="logotipo"></a><br>
+            </div>
+            <div class="menu2">
+                <a href="index.html"><button class="botao1"><img src="imagens/casa512.png" class="casa">HOME</button></a>
+                <a href="carconnect.html"><button class="botao2"><img src="imagens/carro 128.png" class="carros">CARCONNECT</button></a>
+                <a href="oficinas.html"><button class="botao3"><img src="imagens/chave-inglesa.png" class="chaveinglesa">OFICINAS</button></a>
+                <a href="quemsomos.html"><button class="botao4"><img src="imagens/predio.png" class="predio">QUEM SOMOS</button></a>
+                <a href="faleconosco.html"><button class="botao5"><img src="imagens/atendente.png" class="atendente">FALE CONOSCO</button></a>        
+                <a href="login.html"><button class="botao6"><img src="imagens/profile64.png" class="login">LOGIN</button></a>
+            </div>
+        </nav>
+    </div>
+</header>
+<!--CORPO DA PAGINA-->
+<body>
+    <main class="container1">
+        <div class="area1">
+            <section>
+                <img src="imagens/logocarconnect.PNG" alt="Logotipo da página" class="logohome">
+                <form class="form1">
+                    <label><button class="pesquisa1"><img src="imagens/lupa.png" class="lupa"></button></label>
+                    <input type="text" name="nome" placeholder="Digite o carro desejado" class="form2">
+                </form>
+            </section>
+            <div class="are2">
+                <section>
+                    <img src="imagens/carros3.jpg" alt="logo carro" class="logogrd">
+                </section>
+            </div>
+        </div>
+        <!--Campo para pesquisa dos veículos-->
+        <div class="area3">
+            <form class="container11">
+                <fieldset class="marca">
+                <label for="Marca">Marca</label>
+                <select class="selectmarca">
+                    <option value="">marca</option>
+                    <option value="Volkswagen">Volkswagen</option>
+                    <option value="Ford">Ford</option>
+                    <option value="Fiat">Fiat</option>
+                    <option value="chevrolet">Chevrolet</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Kia">Kia</option>
+                    <option value="Chery">Chery</option>
+                </select>
+                </fieldset>
+                <fieldset class="modelo">
+                <label for="Modelo">Modelo</label>
+                <select class="selectmodelo">
+                    <option value="">modelo</option>
+                    <option value="Gol">Gol</option>
+                    <option value="Fiesta">Fiesta</option>
+                    <option value="Uno">Uno</option>
+                    <option value="Onix">Onix</option>
+                    <option value="Corolla">Corolla</option>
+                    <option value="Sportage">Sportage</option>
+                    <option value="Tiggo">Tiggo</option>
+                </select>
+                </fieldset>
+                <fieldset class="ano">
+                <label for="Ano">Ano</label>
+                <select class="selectano">
+                    <option value="">ano</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                </select>
+                </fieldset>
+                <fieldset class="quilometragem">
+                <label for="Quilometragem">Quilometragem</label>
+                <select class="selectkm">
+                    <option value="">km</option>
+                    <option value="0">0</option>
+                    <option value="5000">5.000</option>
+                    <option value="10.000">10.000</option>
+                    <option value="15.000">15.000</option>
+                    <option value="20.000">20.000</option>
+                    <option value="25.000">25.000</option>
+                    <option value="30.000">30.000</option>
+                    <option value="35.000">35.000</option>
+                    <option value="40.000">40.000</option>
+                </select>
+                </fieldset>
+                <button type='submit' class="btnconectar"><img src="imagens/search128.png" class="lupar">CONECTAR</button>
+            </form>
+        </div>
+    </main>
+</body>
+<!--RODAPE-->
+<footer>
+    <div class="rodape">
+        <div class="texto-rodape">
+            <p class="paragrafo-rodape">&reg 1990-2024 DESING by CONNECT CAR S.A. CNPJ: 01.000.000/0001-00. TODOS OS DIREITOS RESERVADOS.</p>
+        </div>
+        <div class="midias">
+            <p class="paragrafo-rodape1">Nos acompanhe nas redes:</p>
+            <i><a href="https://www.instagram.com/"><img src="imagens/instagrampto.jpg" class="icone1"></a></i>
+            <i><a href="https://pt-br.facebook.com/login/device-based/regular/login/"><img src="imagens/facebookpto.jpg" class="icone2"></a></i>
+            <i><a href="https://web.whatsapp.com/"><img src="imagens/whatsapppto.jpg" class="icone3"></a></i>
+            <i><a href="https://www.youtube.com/"><img src="imagens/youtubepto.jpg" class="icone4"></a></i>
+        </div>
+    </div>
+</footer>
+</html>

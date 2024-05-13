@@ -1,0 +1,414 @@
+/* FONTES IMPORTADAS DO GOOGLE FONTS ***********************************************************/
+
+.days-one-regular {
+    font-family: "Days One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.arrimo {
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.faster-one {
+    font-family: "Faster One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.teko {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.exo {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+/* CABEÇALHO ************************************************************************/
+/*
+header {
+    background-color: #04001E;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 1px;
+}
+
+
+.icon {
+    width: auto;
+    height: 35px;
+    vertical-align: middle;
+    margin-right: 1px;
+}
+
+.icon1 {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 1px;
+}
+
+.days-one-regular span a {
+    vertical-align: middle;
+}
+
+.logo {
+    margin-right: 10px;
+    width: 200px;
+    height: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+header a:hover {
+    background-color: white;
+    color: #04001E;
+}
+
+header .login {
+    border: 2px solid #078D2D;
+    color: white;
+    background-color: #078D2D;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+header a:last-child:hover {
+    background-color: white;
+    color: #04001E;
+} */
+
+/* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CORPO DO SITE // PÁGINA INDEX.HTML*****************/
+
+
+
+
+
+
+
+
+/* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CORPO DO SITE // PÁGINA CARCONNECT.HTML*****************/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.carconnect {
+    margin: 0;
+    padding: 0;
+    color: black;
+    position: relative;
+}
+
+.carconnect h1 {
+    margin: 20px;
+    padding: 20px;
+    color: black;
+    position: relative;
+    background-color: #f5f5f5;
+    font-family: "Days One", sans-serif;
+    font-size: medium;
+    border-top: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.carconnect h2 {
+    margin: 5px 20px 0px 20px;
+    padding: 20px;
+    margin-bottom: 0;
+    color: black;
+    position: relative;
+    background-color: #f5f5f5;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-size: large;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.carconnect p {
+    margin:20px 20px 0px 20px;
+    padding: 20px;
+    margin-top: -10px;
+    color: black;
+    position: relative;
+    background-color: #f5f5f5;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.carconnect h3 {
+    margin: 10px 30px;
+    padding: 0px;
+    color: black;
+    font-family: "poppins", sans-serif;
+    font-size: large;
+    margin-bottom: -25px;
+}
+
+.coluna {
+    margin: 30px;
+    width: calc(30% - 50px);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    font-family: "Exo 2", sans-serif;
+    font-size: medium;
+    color: black;
+}
+
+.coluna:last-child {
+    margin-right: 0;
+}
+
+.interrogacao {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+    font-size: small;
+    color: black;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 2px;
+    font-family: "Exo 2", sans-serif;
+    font-size: 15px;
+    appearance: none;
+    background-image: url(imagens/icone-formulario.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: right 0px center;
+    cursor: pointer;
+}    
+
+select:hover {
+    background-color: #f5f5f5;
+}
+
+.bt1 {
+    background-color: #d7d7d7;
+    color: black;
+    font-family: "Faster One", system-ui;
+    padding: 2px 40px 2px 10px;
+    font-size: 100%;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 1.2);
+    position: relative;
+    left: 80px;
+    margin-top: 10px;
+}
+
+.bt1 .icone-car1 {
+    position: absolute;
+    top: 44%;
+    right: 5px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url("imagens/icone-logo-button.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bt1:hover {
+    background-color: #E7E6E6;
+}
+
+
+
+
+.carconnect2 {
+    margin: 0;
+    padding: 0;
+    color: black;
+    position: relative;
+}
+
+.carconnect2 h1 {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    font-family: "Days One", sans-serif;
+    font-size: large;
+}
+
+.carconnect2 .pcar2 {
+    margin: 20px 120px 20px 120px;
+    padding: 10px;
+    color: black;
+    background-color: rgba(226, 255, 188, 0.8);
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+.container-car2 {
+    text-align: center;
+}
+
+.imagem-car2 {
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 5px;
+    margin-right: 5%;
+}
+
+.imagem-car2 img {
+    width: 220px;
+    height: auto;
+    margin-bottom: -35px;
+}
+
+.botoes-car2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.botoes-car2 .bt2 {
+    background-color: #d7d7d7;
+    color: black;
+    font-family: "Faster One", system-ui;
+    padding: 10px 70px 10px 30px;
+    font-size: 120%;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 1.2);
+    position: relative;
+    margin-right: 5%;
+    margin-left: 1%;
+}
+
+.bt2 .icone-car2 {
+    position: absolute;
+    top: 44%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-image: url("imagens/icone-logo-button.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CORPO DO SITE // PÁGINA CARCONNECT2.HTML*****************/
+
+
+
+
+
+/* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CORPO DO SITE // PÁGINA OFICINAS.HTML*********************/
+
+
+
+
+
+
+/* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CORPO DO SITE // PÁGINA QUEM SOMOS.HTML*****************/
+
+
+
+
+
+/* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CORPO DO SITE // PÁGINA FALE CONOSCO.HTML*****************/
+
+
+
+
+/* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CORPO DO SITE // PÁGINA LOGIN.HTML**********************/
+
+
+
+
+
+
+/* RODAPÉ**************************************************************************************/
+/*
+footer {
+    background-color: #04001E;
+    color: white;
+    padding: 0;
+}
+
+
+footer > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .social-icons img {
+    width: 30px;
+    height: auto;
+    margin-left: 8px;
+    margin-inline-end: 10px;
+}
+
+footer .direitos {
+    text-align: left;
+    margin-left: 20px;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: italic;
+    color: white;
+    font-size: 15px;
+}
+
+footer .redes {
+    text-align: right;
+    margin-bottom: 8px;
+    margin-right: 45px;
+    font-family: "Days One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+*/

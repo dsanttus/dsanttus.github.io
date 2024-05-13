@@ -1,0 +1,158 @@
+/* FONTES IMPORTADAS DO GOOGLE FONTS ***********************************************************/
+
+.days-one-regular {
+  font-family: "Days One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arrimo {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.faster-one {
+  font-family: "Faster One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}  
+
+.teko {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.exo {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.poppins-thin {
+font-family: "Poppins", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+/* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CORPO DO SITE // PÁGINA FALECONOSCO.HTML*****************/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+
+main{
+
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  
+  }
+
+  .right-side{
+    width: 20%;
+    margin-left: 200px;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+    max-width: 500px;
+   
+  }
+  
+  .right-side .topic-text{
+    font-size: 23px;
+    font-weight: 600;
+    color: #078D2D;
+  }
+
+  .right-side .input-box{
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+  }
+
+.right-side .input-box input,
+.right-side .input-box textarea{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+
+.right-side .message-box{
+  min-height: 110px;
+}
+
+.right-side .input-box textarea{
+  padding-top: 6px;
+}
+
+.right-side .button{
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.right-side .button input[type="button"]{
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #078D2D;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+
+/* texto */
+
+.button input[type="button"]:hover{
+  background: #08cc3f;
+}
+
+
+.texto {
+    
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.contato {
+    margin-top: 15px;
+}
+
+.contato img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.contato a {
+    text-decoration: none;
+    color: #333; /* Cor do texto */
+}
+
+.contato a:hover {
+    text-decoration: underline;
+}

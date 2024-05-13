@@ -1,0 +1,491 @@
+/* FONTES IMPORTADAS DO GOOGLE FONTS ***********************************************************/
+
+.days-one-regular {
+  font-family: "Days One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arrimo {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.faster-one {
+  font-family: "Faster One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}  
+
+.teko {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.exo {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.poppins-thin {
+font-family: "Poppins", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+/* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CABECALHO DO SITE*****************/
+
+/*Configuração pedida pelo professor no grupo whatsapp*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/*configuração menu*/
+header {
+ background-color: #04001E;
+ padding: 10px 0 10px 0;
+}
+
+.menu {
+  display: inline-block;
+ 
+}
+/*configuração da div que contem o logotipo carconnect*/
+.menu1 {
+  display: inline-block ;
+}
+
+.logomenu {
+  width: 140px;
+  height: auto;
+  vertical-align:top;
+  padding-left: 10px;
+ }
+ 
+/*configuração que contem a div com os botões que direcionam para as outras páginas*/
+
+.menu2{
+  display: inline-block;
+  margin-left: 1rem;
+  padding: 0 0 0 10px;
+  position: absolute;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+.botao1  {
+  display: inline-block;
+  background-color: #04001E !important;
+  color: white !important;
+  font-family: "Days One", sans-serif;
+  font-weight: bold !important;
+  font-size: 10px;
+  padding: 6px 30px;
+  margin: 7px 10px 0 0;
+  border-radius: 50px;
+  border: none;
+  transition-duration: 0.4s;
+}
+
+.botao1:hover {
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+
+.casa {
+  width: 12px;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+}
+
+.botao2 {
+  display: inline-block;
+  background-color: #04001E !important;
+  color: white !important;
+  font-family: "Days One", sans-serif;
+  font-weight: bold !important;
+  font-size: 10px;
+  padding: 4px 35px;
+  margin-right: 10px;
+  border-radius: 50px;
+  border: none;
+  transition-duration: 0.4s;
+}
+.carros {
+  width: 14px;
+  height: auto;
+  margin: 0 5px 0 0;
+  padding-bottom: 0;
+  vertical-align: middle;
+}
+
+.botao2:hover {
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+
+.botao3 {
+  display: inline-block;
+  background-color: #04001E !important;
+  color: white !important;
+  font-family: "Days One", sans-serif;
+  font-weight: bold !important;
+  font-size: 10px;
+  padding: 4px 35px;
+  border-radius: 50px;
+  border: none;
+  transition-duration: 0.4s;
+}
+
+.chaveinglesa {
+  width: 15px;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+}
+
+.botao3:hover {
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+
+.botao4 {
+  display: inline-block;
+  background-color: #04001E !important;
+  color: white !important;
+  font-family: "Days One", sans-serif;
+  font-weight: bold !important;
+  font-size: 10px;
+  padding: 4px 35px;
+  margin-right: 10px;
+  border-radius: 50px;
+  border: none;
+  transition-duration: 0.4s;
+}
+
+.predio {
+  width: 15px;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+}
+
+.botao4:hover {
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+
+.botao5 {
+  display: inline-block;
+  background-color: #04001E !important;
+  color: white !important;
+  font-family: "Days One", sans-serif;
+  font-weight: bold !important;
+  font-size: 10px;
+  padding: 4px 35px;
+  margin-right: 150px;
+  border-radius: 50px;
+  border: none;
+  transition-duration: 0.4s;
+}
+
+.atendente {
+  width: 15px;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+}
+
+.botao5:hover {
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+
+/*configuração que contem a div com o botao login*/
+
+.menu3 {
+  display: inline-flex;
+}
+
+.botao6 {
+  display: inline-block;
+  background-color: #006400;
+  color: white;
+  font-family: "Days One", sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 4px 30px;
+  border-radius: 50px;
+  border: none;
+  transition-duration: 0.4s;
+}
+
+.login {
+  width: 15px;
+  height:auto;
+  padding: 0;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+}
+
+.botao6:hover {
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+
+/* ESPAÇO RESERVADO PARA FORMATAÇÃO DO RODAPÉ DO SITE //*****************/
+
+/*configuração rodape*/
+footer{ 
+  display: inline-flexbox;
+  position: fixed;
+  width: 100%;
+  height: 5%;
+  top: 93%;
+}
+
+/*estilização da div rdodape e seus componentes*/
+.rodape {
+  display: flex;
+  background-color: #04001E;
+  padding: 0;
+}
+
+.texto {
+  display: inline-block;
+  position: relative;
+  padding: 40px 0;
+}
+
+.paragrafo-rodape {
+  font-family: "Arimo", sans-serif;
+  font-size: small;
+  font-style: italic; 
+  color:  white !important;
+  font-weight: bold !important;
+  padding: 20px 0px 15px 20px;
+}
+
+/* estilização da div midias e seus componentes*/
+
+.midias {
+  display: block;
+  height: 10%;
+  flex: wrap;
+  padding-left: 400px;
+}
+.paragrafo-rodape1 {
+  background-color: #04001E;
+  font-family: "Arimo", sans-serif;
+  font-size: small;
+  color: white !important;
+  font-weight: bold !important;
+  padding: 5px 20px 5px 0;
+}
+
+.icone1 {
+  width: 25px;
+  height: auto;
+  padding: 0 5px 0 0;
+  margin-left: 30px;
+}
+
+.icone2 {
+  width: 25px;
+  height: auto;
+  padding: 0 5px 0 0;
+}
+
+.icone3 {
+  width: 25px;
+  height: auto;
+  padding: 0 5px 0 0;
+}
+
+.icone4 {
+  width: 25px;
+  height: auto;
+  padding: 0 5px 0 0;
+}
+
+/* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CORPO DO SITE // PÁGINA INDEX.HTML*****************/
+
+/*configuração pagina inicial*/
+ html, body {
+  min-height: 100%;
+ }
+
+.container1 {
+  display: inline-block;
+  width: 700px;
+  height: 600px;
+  flex-wrap: wrap;
+  }
+
+/*configuração div area1*/
+.area1 {
+  display: flex;
+  width: 40%;
+  flex-direction: row;
+  
+}
+.logohome {
+  width: 550px;
+  height: auto;
+  margin: 150px 0 0 125px;
+  align-items: right;
+}
+
+.lupa {
+  width: 20px;
+  height: auto;
+}
+
+.pesquisa1 {
+  background-color: white;
+  width: 30px;
+  margin-left: 129px;
+  border: white;
+  transition-duration: 0.2s;
+}
+
+
+.form2 {
+ width: 370px;
+ padding-left: 70px;
+}
+
+/*configuração div area2*/
+.area2 {
+  display: flex;
+  width: 40%;
+  padding: auto;
+  flex-direction: row;
+}
+  
+
+.logogrd {
+  width: 550px;
+  height: auto;
+  margin: 30px 0 0 30px;
+}
+
+/*configuração div area3*/
+
+.area3 {
+  display: flex;
+  margin-left: 60px;
+  padding-top: 45px;
+  flex-direction: row; 
+}
+
+.container11 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.marca {
+  display: block;
+  font-family: "Days One", sans-serif;
+  font-weight: bold;
+  width: 160px;
+  height: 80px;
+  padding: 10px;
+  border-style: groove;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.selectmarca {
+  width: 150px;
+  height: 30px;
+  border: none;
+}
+
+.modelo {
+  display: block;
+  font-family: "Days One", sans-serif;
+  font-weight: bold;
+  width: 160px;
+  height: 80px;
+  padding: 10px;
+  border-style: groove;
+}
+
+.selectmodelo {
+  width: 150px;
+  height: 30px;
+  border: none;
+}
+
+.ano {
+  display: block;
+  font-family: "Days One", sans-serif;
+  font-weight: bold;
+  width: 170px;
+  height: 80px;
+  padding: 10px;
+  border-style: groove;
+}
+
+.selectano {
+  width: 150px;
+  height: 30px;
+  border: none;
+}
+
+.quilometragem {
+  display: block;
+  font-family: "Days One", sans-serif;
+  font-weight: bold;
+  width: 160px;
+  height: 80px;
+  padding: 10px;
+  border-style: groove;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.selectkm {
+  width: 150px;
+  height: 30px;
+  border: none;
+}
+
+.lupar {
+  width: 70px;
+  height: auto;
+  padding: auto 15px;
+  color: white;
+  align-items: start;
+}
+
+
+.btnconectar {
+  display: flex;
+  background-color: #fc740c;
+  color:white;
+  font-family: 'Poppins' sans-serif;
+  font-weight: bold;
+  width: 180px;
+  height: 80px;
+  margin-left: 20px;
+  border-style: groove;
+  border-radius: 15px;
+  align-items: center;
+  cursor: pointer;
+}

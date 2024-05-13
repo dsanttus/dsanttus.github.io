@@ -1,0 +1,235 @@
+/* FONTES IMPORTADAS DO GOOGLE FONTS ***********************************************************/
+
+.days-one-regular {
+  font-family: "Days One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arrimo {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.faster-one {
+  font-family: "Faster One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}  
+
+.teko {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.exo {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.poppins-thin {
+font-family: "Poppins", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+/* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CORPO DO SITE // PÁGINA QUEMSOMOS.HTML*****************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carrosimg {
+    display: flex;
+}
+.h1quem {
+    display: flex;
+    color: #EB3223;
+    font-family: "Days One", sans-serif;
+    font-size: 2.0rem;
+    margin: 15px;
+    line-height: 2.0;
+}
+
+.carrosimg {
+    display: flex;
+    width: 550px;
+    height: 300px;
+    float: right;
+    margin-top: 50px;
+}
+.connecttitulo {
+    display: flex;
+    color: black;
+    font-family: "Days One", sans-serif;
+    font-size: 1.0rem;
+    margin: 15px;
+}
+.paragrafos1 {
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: black;
+    margin: 15px;
+    line-height: 2.0;
+}
+.paragrafos2{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    color: black;
+    margin: 15px;
+    line-height: 2.0;
+}
+.paragrafos3{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    color: black;
+    margin: 15px;
+    line-height: 1.5;
+}
+
+.linkcarconnect {
+  font-family: "Days One", sans-serif;
+  cursor: pointer;
+}
+
+.linkconectcar {
+  font-family: "Days One", sans-serif;
+  cursor: pointer;
+}
+
+.h4entao {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    margin: 15px;
+    line-height: 2.0;
+}
+.h2nosso {
+    font-family: "Days One", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    margin: 15px;
+    line-height: 2.0;
+}
+
+/* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CORPO DO SITE // PÁGINA QUEMSOMOS.HTML*****************/
+
+/*********************Estilização pagina oficinas******************/
+.icones {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
+    align-items: center;
+ }
+.manutencao {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    padding-top: 30px; 
+    margin-left: 3%; 
+}
+.mecanica {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px; 
+    margin-bottom: 20px; 
+    padding: 15px;
+    padding-top: 30px; 
+}
+.autoeletrico {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px; 
+    margin-bottom: 20px; 
+    padding: 15px;
+    padding-top: 30px; 
+}
+.oleo {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px; 
+    margin-bottom: 20px; 
+    padding: 15px;
+    padding-top: 30px; 
+}
+.mecanicageral {
+    display: flex;
+    align-items: center; 
+    border: 1px solid #000;
+    background-color: #D9D9D9;
+    height: 50px;
+    width: 300px;
+}
+.mecanicageral h3 {
+    margin: 1px; 
+    margin-right: 0px;
+    font-size: 0.8rem;
+    padding: 10px;
+    color: #EB3223;
+    width: 225px;
+    text-align: center;
+    top: 20px;
+    font-family: "Days One", sans-serif;
+}
+
+.p1manu, .p2manu, .p3manu, .p4manu {
+    margin: 7px;
+    line-height:1.6;
+    background-color: #D9D9D9;
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #000; 
+    padding-bottom: 7px;
+    text-align: center;
+}
+.p1mec, .p2mec, .p3mec, .p4mec {
+    margin: 7px;
+    line-height:1.6;
+    background-color: #D9D9D9;
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #000; 
+    padding-bottom: 7px; 
+    text-align: center;
+}
+.p1auto, .p2auto, .p3auto, .p4auto {
+    margin: 7px;
+    line-height:1.6;
+    background-color: #D9D9D9;
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #000; 
+    padding-bottom: 7px;
+    text-align: center;
+}
+.p1oleo, .p2oleo, .p3oleo, .p4oleo {
+    margin: 7px;
+    line-height:1.6;
+    background-color: #D9D9D9;
+    font-size: 0.9rem;
+    font-family: "Poppins",sans-serif;
+    border: 1px solid #000; 
+    padding-bottom: 7px;
+    text-align: center;
+}
+.h1ofc {
+  margin: 20px;
+  padding: 20px;
+  color: #078D2D;
+  position: relative;
+  background-color: #f5f5f5;
+  font-family: "Days One", sans-serif;
+  font-size: large;
+  text-align: center;
+}
