@@ -251,16 +251,16 @@ a {
 /*configuração rodape*/
 footer { 
   display: inline-flexbox;
-  position: relative;
+  position: fixed;
   width: 100%;
   height: 3%;
+  top: 662px;
 }
 /*estilização da div rdodape e seus componentes*/
 .rodape {
-  display: flex;
+  display:flex;
   background-color: #04001E;
   padding: 0;
-  margin-top: 130px;
 }
   
 .texto {
