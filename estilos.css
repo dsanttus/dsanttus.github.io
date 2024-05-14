@@ -283,7 +283,7 @@ footer {
 
 .paragrafo-rodape {
   font-family: "Arimo", sans-serif;
-  font-size: small;
+  font-size: x-small;
   font-style: italic; 
   color:  white !important;
   font-weight: bold !important;
@@ -301,7 +301,7 @@ footer {
 .paragrafo-rodape1 {
   background-color: #04001E;
   font-family: "Arimo", sans-serif;
-  font-size: small;
+  font-size: 12px;
   color: white !important;
   font-weight: bold !important;
   padding: 5px 20px 5px 0;
