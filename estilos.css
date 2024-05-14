@@ -257,16 +257,18 @@ footer {
   position: fixed;
   width: 100%;
   height: 3%;
-  top: 93.5%;
+  top: 93%;
   bottom: 0;
+  padding: 10px 0;
 }}
 footer { 
   display: inline-flexbox;
   position: fixed;
   width: 100%;
   height: 3%;
-  top: 93.5%;
+  top: 93%;
   bottom: 0;
+  padding: 10px 0;
 }
 /*estilização da div rdodape e seus componentes*/
 .rodape {
@@ -294,42 +296,39 @@ footer {
 
 .midias {
   display: block;
-  height: 10%;
-  flex: wrap;
-  padding-left: 600px;
+  text-align: center;
+  margin-left: auto;
 }
 .paragrafo-rodape1 {
-  background-color: #04001E;
   font-family: "Arimo", sans-serif;
-  font-size: 12px;
+  font-size: x-small;
   color: white !important;
   font-weight: bold !important;
-  padding: 5px 20px 5px 0;
+  padding: 5px 8px 5px 0px;
 }
 
 .icone1 {
   width: 25px;
   height: auto;
-  padding: 0 5px 0 0;
-  margin-left: 30px;
+  padding: 0 8px 0 0;
 }
 
 .icone2 {
   width: 25px;
   height: auto;
-  padding: 0 5px 0 0;
+  padding: 0 8px 0 0;
 }
 
 .icone3 {
   width: 25px;
   height: auto;
-  padding: 0 5px 0 0;
+  padding: 0 8px 0 0;
 }
 
 .icone4 {
   width: 25px;
   height: auto;
-  padding: 0 5px 0 0;
+  padding: 0 8px 0 0;
 }
 
 /* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CORPO DO SITE // PÁGINA INDEX.HTML*****************/
