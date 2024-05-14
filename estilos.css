@@ -364,7 +364,8 @@ footer{
 }
 
 .logohome2 {
-  font-family: "Days One", sans-serif;
+  height: 100px;
+  width: auto;
   font-size: 25px;
   margin: -70px 0 0 560px;
   position: absolute;
