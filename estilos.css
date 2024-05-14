@@ -40,7 +40,9 @@ font-style: normal;
 }
 
 /* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CABECALHO DO SITE*****************/
-
+@media only screen and (max-device-width: 900px) {
+   .menu { width:100%; }
+  }
 /*Configuração pedida pelo professor no grupo whatsapp*/
 * {
     margin: 0;
@@ -284,7 +286,7 @@ footer {
   display: block;
   height: 10%;
   flex: wrap;
-  padding-left: 400px;
+  padding-left: 600px;
 }
 .paragrafo-rodape1 {
   background-color: #04001E;
