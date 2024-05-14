@@ -133,34 +133,34 @@ font-style: normal;
 .manutencao {
     display: inline-block;
     vertical-align: top;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-bottom: 20px;
-    padding: 15px;
+    padding: 5px;
     padding-top: 30px; 
     margin-left: 3%; 
 }
 .mecanica {
     display: inline-block;
     vertical-align: top;
-    margin-right: 10px; 
+    margin-right: 5px; 
     margin-bottom: 20px; 
-    padding: 15px;
+    padding: 5px;
     padding-top: 30px; 
 }
 .autoeletrico {
     display: inline-block;
     vertical-align: top;
-    margin-right: 10px; 
+    margin-right: 5px; 
     margin-bottom: 20px; 
-    padding: 15px;
+    padding: 5px;
     padding-top: 30px; 
 }
 .oleo {
     display: inline-block;
     vertical-align: top;
-    margin-right: 10px; 
+    margin-right: 5px; 
     margin-bottom: 20px; 
-    padding: 15px;
+    padding: 5px;
     padding-top: 30px; 
 }
 .mecanicageral {
