@@ -251,12 +251,22 @@ a {
 /* ESPAÇO RESERVADO PARA FORMATAÇÃO DO RODAPÉ DO SITE //*****************/
 
 /*configuração rodape*/
+@media(max-width: 900px) {
 footer { 
   display: inline-flexbox;
   position: fixed;
   width: 100%;
-  height: 7%;
+  height: 3%;
   top: 93.5%;
+  bottom: 0;
+}}
+footer { 
+  display: inline-flexbox;
+  position: fixed;
+  width: 100%;
+  height: 3%;
+  top: 93.5%;
+  bottom: 0;
 }
 /*estilização da div rdodape e seus componentes*/
 .rodape {
