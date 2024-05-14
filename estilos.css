@@ -53,7 +53,6 @@ header {
  background-color: #04001E;
  padding: 10px 0 10px 0;
 }
-
 .menu {
   display: inline-block;
  
@@ -250,21 +249,20 @@ a {
 /* ESPAÇO RESERVADO PARA FORMATAÇÃO DO RODAPÉ DO SITE //*****************/
 
 /*configuração rodape*/
-footer{ 
+footer { 
   display: inline-flexbox;
-  position: fixed;
+  position: relative;
   width: 100%;
-  height: 5%;
-  top: 93%;
+  height: 3%;
 }
-
 /*estilização da div rdodape e seus componentes*/
 .rodape {
   display: flex;
   background-color: #04001E;
   padding: 0;
+  margin-top: 130px;
 }
-
+  
 .texto {
   display: inline-block;
   position: relative;
