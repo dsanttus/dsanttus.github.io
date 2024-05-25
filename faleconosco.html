@@ -12,22 +12,24 @@
 </head>
 <!--CABECALHO-->
 <header>
-<div class="menu">
-    <nav>
-        <div class="menu1">
-            <a href="index.html">
-            <img src="imagens/logonovo.png" class="logomenu" alt="logotipo"></a><br>
-        </div>
-        <div class="menu2">
-            <a href="index.html"><button class="botao1"><img src="imagens/casa512.png" class="casa">HOME</button></a>
-            <a href="carconnect.html"><button class="botao2"><img src="imagens/carro 128.png" class="carros">CARCONNECT</button></a>
-            <a href="oficinas.html"><button class="botao3"><img src="imagens/chave-inglesa.png" class="chaveinglesa">OFICINAS</button></a>
-            <a href="quemsomos.html"><button class="botao4"><img src="imagens/predio.png" class="predio">QUEM SOMOS</button></a>
-            <a href="faleconosco.html"><button class="botao5"><img src="imagens/atendente.png" class="atendente">FALE CONOSCO</button></a>        
-            <a href="login.html"><button class="botao6"><img src="imagens/profile64.png" class="login">LOGIN</button></a>
-        </div>
-    </nav>
-</div>
+    <div class="menu">
+        <nav>
+            <div class="menu1">
+                <a href="index.html">
+                <img src="imagens/logonovo.png" class="logomenu" alt="logotipo"></a><br>
+            </div>
+            <div class="menu2">
+                <a href="index.html"><button class="botao1"><img src="imagens/casa512.png" class="casa">HOME</button></a>
+                <a href="carconnect.html"><button class="botao2"><img src="imagens/carro 128.png" class="carros">CARCONNECT</button></a>
+                <a href="oficinas.html"><button class="botao3"><img src="imagens/chave-inglesa.png" class="chaveinglesa">OFICINAS</button></a>
+                <a href="quemsomos.html"><button class="botao4"><img src="imagens/predio.png" class="predio">QUEM SOMOS</button></a>
+                <a href="faleconosco.html"><button class="botao5"><img src="imagens/atendente.png" class="atendente">FALE CONOSCO</button></a>        
+                <a href="login.html"><button class="botao6"><img src="imagens/profile64.png" class="login">LOGIN</button></a>
+            </div>
+        </nav>
+    </div>
+    
+   
 </header>
 <!--CORPO DA PAGINA-->
 <body>
@@ -50,31 +52,30 @@
 
 </div>
 
-
-
-        <div class="right-side">
-
-        <div class="topic-text">Envie sua mensagem</div>
-        
-        <form action="#">
-            <div class="input-box">
-            <input type="text" placeholder="Digite seu nome" />
-            </div>
-            <div class="input-box">
-            <input type="text" placeholder="Digite seu email" />
-            </div>
-            <div class="input-box message-box">
-            <textarea placeholder="Digite sua mensagem"></textarea>
-            </div>
-            <div class="button">
-            <input type="button" value="Enviar" />
-            </div>
-        </form>
-
+    
+<div class="right-side">
+    <div class="topic-text">Envie sua mensagem</div>
+    
+    <form id="contact-form" action="#" method="POST">
+        <div class="input-box">
+            <input type="text" name="nome" placeholder="Digite seu nome" />
+        </div>
+        <div class="input-box">
+            <input type="text" name="email" placeholder="Digite seu email" />
+        </div>
+        <div class="input-box message-box">
+            <textarea name="mensagem" placeholder="Digite sua mensagem"></textarea>
+        </div>
+        <div class="button">
+            <input type="submit" class="btn-enviar" value="Enviar" />
+        </div>
+    </form>
+</div>
 </div>
 </div>
 
 </main>
+<script src="/faleconosco.js"></script>
 </body>
 <!--RODAPE-->
 <footer>

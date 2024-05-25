@@ -1,158 +1,123 @@
-/* FONTES IMPORTADAS DO GOOGLE FONTS ***********************************************************/
-
-.days-one-regular {
-  font-family: "Days One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+/* Classes de erro para mensagens dentro das caixas de formulário */
+.error {
+  border: 2px solid red; /* Adiciona uma borda vermelha nos campos com erro */
 }
 
-.arrimo {
-  font-family: "Arimo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+.right-side .input-box .error-message {
+  color: red; /* Define a cor do texto da mensagem de erro para vermelho */
+  font-size: 0.7em; /* Define o tamanho da fonte da mensagem de erro, menor */
+  margin-top: 5px; /* Adiciona um espaço entre o campo e a mensagem de erro */
+  position: absolute; /* Define a posição absoluta para que a mensagem fique dentro da caixa */
+  bottom: -20px; /* Ajusta a posição vertical da mensagem dentro da caixa */
+  left: 5px; /* Ajusta a posição horizontal da mensagem dentro da caixa */
+  max-width: 100%; /* Garante que a mensagem de erro não ultrapasse a largura da caixa */
+  white-space: nowrap; /* Impede que a mensagem de erro seja quebrada em várias linhas */
 }
 
-.faster-one {
-  font-family: "Faster One", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}  
-
-.teko {
-  font-family: "Teko", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-
-.exo {
-  font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-
-.poppins-thin {
-font-family: "Poppins", sans-serif;
-font-weight: 100;
-font-style: normal;
-}
-
-/* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CORPO DO SITE // PÁGINA FALECONOSCO.HTML*****************/
-
-*{
+/* Outros estilos existentes permanecem inalterados */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins" , sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-main{
-
+/* Estilos específicos para o formulário */
+main {
   min-height: 100vh;
   width: 100%;
   display: flex;
-  align-items:center;
-  justify-content:center;
-  width: 100%;
+  align-items: center;
+  justify-content: center;
   background: #fff;
   border-radius: 10px;
-  
-  }
+}
 
-  .right-side{
-    width: 20%;
-    margin-left: 200px;
-    font-size: 36px;
-    margin-bottom: 40px;
-    color: #333;
-    max-width: 500px;
-   
-  }
-  
-  .right-side .topic-text{
-    font-size: 23px;
-    font-weight: 600;
-    color: #078D2D;
-  }
+.right-side {
+  width: 20%;
+  margin-left: 200px;
+  font-size: 16px;
+  color: #333;
+  max-width: 500px;
+}
 
-  .right-side .input-box{
-    height: 50px;
-    width: 100%;
-    margin: 12px 0;
-  }
+.right-side .topic-text {
+  font-size: 23px;
+  font-weight: 600;
+  color: #078d2d;
+}
+
+.right-side .input-box {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+}
 
 .right-side .input-box input,
-.right-side .input-box textarea{
+.right-side .input-box textarea {
   height: 100%;
   width: 100%;
   border: none;
   outline: none;
   font-size: 16px;
-  background: #F0F1F8;
+  background: #f0f1f8;
   border-radius: 6px;
   padding: 0 15px;
   resize: none;
 }
 
-.right-side .message-box{
+.right-side .message-box {
   min-height: 110px;
 }
 
-.right-side .input-box textarea{
+.right-side .input-box textarea {
   padding-top: 6px;
 }
 
-.right-side .button{
+.right-side .button {
   display: inline-block;
   margin-top: 12px;
 }
 
-.right-side .button input[type="button"]{
+.right-side .button input[type="submit"] {
   color: #fff;
   font-size: 18px;
   outline: none;
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
-  background: #078D2D;
+  background: #078d2d;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
-
-
-/* texto */
-
-.button input[type="button"]:hover{
+.right-side .button input[type="submit"]:hover {
   background: #08cc3f;
 }
 
-
 .texto {
-    
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 h1 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .contato {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .contato img {
-    margin-right: 5px;
-    vertical-align: middle;
+  margin-right: 5px;
+  vertical-align: middle;
 }
 
 .contato a {
-    text-decoration: none;
-    color: #333; /* Cor do texto */
+  text-decoration: none;
+  color: #333;
 }
 
 .contato a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
