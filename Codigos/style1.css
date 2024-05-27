@@ -249,7 +249,7 @@ select:hover {
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
-    background-image: url("imagens/icone-logo-button.png");
+    background-image: url("/imagens/icone-logo-button.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -333,7 +333,7 @@ select:hover {
     transform: translateY(-50%);
     width: 40px;
     height: 40px;
-    background-image: url("imagens/icone-logo-button.png");
+    background-image: url("/imagens/icone-logo-button.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
