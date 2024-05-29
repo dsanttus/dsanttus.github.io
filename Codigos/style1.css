@@ -216,7 +216,7 @@ select {
     font-family: "Exo 2", sans-serif;
     font-size: 15px;
     appearance: none;
-    background-image: url(imagens/icone-formulario.png);
+    background-image: url(/imagens/icone-formulario.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: right 0px center;

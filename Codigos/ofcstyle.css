@@ -92,7 +92,8 @@ font-style: normal;
     font-size: 1rem;
     color: black;
     margin: 15px;
-    line-height: 1.5;
+    line-height: 1,5;
+    margin-bottom: 50px;
 }
 
 .linkcarconnect {
