@@ -32,117 +32,119 @@
     </nav>
 </header>
 <!--CORPO DA PAGINA-->
-<body>    
-    <div class="carconnect">
-        <h1>CARCONNECT</h1>
-        <div>
-            <h2>O que é o Carconnet?</h2>
-            <p>O Carconnet é mais que um simples encontro entre você e um novo carro. É uma ferramenta inteligente e eficaz que simplifica o processo de encontrar o veículo perfeito para você. Como funciona? Basta preencher alguns dados abaixo, e nós faremos uma busca em nossos bancos de dados para apresentar o carro ideal para suas necessidades e preferências! Que tal experimentar nossa ferramenta e encontrar seu próximo veículo com essa facilidade?</p>
+<body>
+    <main>    
+        <div class="carconnect">
+            <h1>CARCONNECT</h1>
+            <div>
+                <h2>O que é o Carconnet?</h2>
+                <p>O Carconnet é mais que um simples encontro entre você e um novo carro. É uma ferramenta inteligente e eficaz que simplifica o processo de encontrar o veículo perfeito para você. Como funciona? Basta preencher alguns dados abaixo, e nós faremos uma busca em nossos bancos de dados para apresentar o carro ideal para suas necessidades e preferências! Que tal experimentar nossa ferramenta e encontrar seu próximo veículo com essa facilidade?</p>
+            </div>
+            <h3>Formulário</h3>
+            <div>
+                <div class="coluna coluna-esquerda">
+                    <form action="carconnect2.html" method="link">
+                        <label for="carroceria">Carroceria</label>
+                        <span class="interrogacao">?</span>
+                        <select id="carroceria" name="carroceria">
+                            <option value="selecione"></option>
+                            <option value="sedan">Sedan</option>
+                            <option value="hatchback">Hatchback</option>
+                            <option value="suv">SUV</option>
+                            <option value="pickup">Pickup</option>
+                        </select>
+
+                        <label for="combustivel">Combustível</label>
+                        <span class="interrogacao">?</span>
+                        <select id="combustivel" name="combustivel">
+                            <option value="selecione"></option>
+                            <option value="gasolina">Gasolina</option>
+                            <option value="alcool">Álcool</option>
+                            <option value="diesel">Diesel</option>
+                            <option value="eletrico">Elétrico</option>
+                        </select>
+
+                        <label for="motor">Motor</label>
+                        <span class="interrogacao">?</span>
+                        <select id="motor" name="motor">
+                            <option value="selecione"></option>
+                            <option value="4cilindros">4 cilindros</option>
+                            <option value="6cilindros">6 cilindros</option>
+                            <option value="8cilindros">8 cilindros</option>
+                            <option value="eletrico">Elétrico</option>
+                        </select>
+
+                        <label for="cor">Cor</label>
+                        <span class="interrogacao">?</span>
+                        <select id="cor" name="cor">
+                            <option value="selecione"></option>
+                            <option value="branco">Branco</option>
+                            <option value="preto">Preto</option>
+                            <option value="prata">Prata</option>
+                            <option value="vermelho">Vermelho</option>
+                        </select>
+
+                        <label for="marca">Marca</label>
+                        <span class="interrogacao">?</span>
+                        <select id="marca" name="marca">
+                            <option value="selecione"></option>
+                            <option value="toyota">Toyota</option>
+                            <option value="honda">Honda</option>
+                            <option value="ford">Ford</option>
+                            <option value="chevrolet">Chevrolet</option>
+                        </select>
+                </div>
+                <div class="coluna coluna-meio">
+                        <label for="tecnologia">Recursos de Tecnologia</label>
+                        <span class="interrogacao">?</span>
+                        <select id="tecnologia" name="tecnologia">
+                            <option value="selecione"></option>
+                            <option value="navegacao">Navegação</option>
+                            <option value="camera_re">Câmera de ré</option>
+                            <option value="controle_clima">Controle de clima</option>
+                            <option value="bluetooth">Bluetooth</option>
+                        </select>
+
+                        <label for="espaco">Espaço Interno</label>
+                        <span class="interrogacao">?</span>
+                        <select id="espaco" name="espaco">
+                            <option value="selecione"></option>
+                            <option value="compacto">Compacto</option>
+                            <option value="medio">Médio</option>
+                            <option value="grande">Grande</option>
+                        </select>
+
+                        <label for="estilo">Estilo e Design</label>
+                        <span class="interrogacao">?</span>
+                        <select id="estilo" name="estilo">
+                            <option value="selecione"></option>
+                            <option value="classico">Clássico</option>
+                            <option value="moderno">Moderno</option>
+                            <option value="esportivo">Esportivo</option>
+                        </select>
+
+                        <label for="preco">Faixa de Preço</label>
+                        <span class="interrogacao">?</span>
+                        <select id="preco" name="preco">
+                            <option value="selecione"></option>
+                            <option value="ate_50_mil">até R$50.000</option>
+                            <option value="entre_50_e_100_mil">entre R$50.000 e R$100.000</option>
+                            <option value="entre_100_e_200_mil">entre R$100.000 e R$200.000</option>
+                            <option value="acima_de_200_mil">acima de R$200.000</option>
+                        </select>    
+
+                        <button class="bt1">
+                            Buscar Veículo
+                            <span class="icone-car1"></span>
+                        </button>
+                    </form>
+                </div>
+                <div class="coluna coluna-direita">
+                    <img src="/imagens/carros3.jpg" alt="carros" style="max-width: 100%;">
+                </div>
+            </div>
         </div>
-        <h3>Formulário</h3>
-        <div>
-            <div class="coluna coluna-esquerda">
-                <form action="carconnect2.html" method="link">
-                    <label for="carroceria">Carroceria</label>
-                    <span class="interrogacao">?</span>
-                    <select id="carroceria" name="carroceria">
-                        <option value="selecione"></option>
-                        <option value="sedan">Sedan</option>
-                        <option value="hatchback">Hatchback</option>
-                        <option value="suv">SUV</option>
-                        <option value="pickup">Pickup</option>
-                    </select>
-
-                    <label for="combustivel">Combustível</label>
-                    <span class="interrogacao">?</span>
-                    <select id="combustivel" name="combustivel">
-                        <option value="selecione"></option>
-                        <option value="gasolina">Gasolina</option>
-                        <option value="alcool">Álcool</option>
-                        <option value="diesel">Diesel</option>
-                        <option value="eletrico">Elétrico</option>
-                    </select>
-
-                    <label for="motor">Motor</label>
-                    <span class="interrogacao">?</span>
-                    <select id="motor" name="motor">
-                        <option value="selecione"></option>
-                        <option value="4cilindros">4 cilindros</option>
-                        <option value="6cilindros">6 cilindros</option>
-                        <option value="8cilindros">8 cilindros</option>
-                        <option value="eletrico">Elétrico</option>
-                    </select>
-
-                    <label for="cor">Cor</label>
-                    <span class="interrogacao">?</span>
-                    <select id="cor" name="cor">
-                        <option value="selecione"></option>
-                        <option value="branco">Branco</option>
-                        <option value="preto">Preto</option>
-                        <option value="prata">Prata</option>
-                        <option value="vermelho">Vermelho</option>
-                    </select>
-
-                    <label for="marca">Marca</label>
-                    <span class="interrogacao">?</span>
-                    <select id="marca" name="marca">
-                        <option value="selecione"></option>
-                        <option value="toyota">Toyota</option>
-                        <option value="honda">Honda</option>
-                        <option value="ford">Ford</option>
-                        <option value="chevrolet">Chevrolet</option>
-                    </select>
-            </div>
-            <div class="coluna coluna-meio">
-                    <label for="tecnologia">Recursos de Tecnologia</label>
-                    <span class="interrogacao">?</span>
-                    <select id="tecnologia" name="tecnologia">
-                        <option value="selecione"></option>
-                        <option value="navegacao">Navegação</option>
-                        <option value="camera_re">Câmera de ré</option>
-                        <option value="controle_clima">Controle de clima</option>
-                        <option value="bluetooth">Bluetooth</option>
-                    </select>
-
-                    <label for="espaco">Espaço Interno</label>
-                    <span class="interrogacao">?</span>
-                    <select id="espaco" name="espaco">
-                        <option value="selecione"></option>
-                        <option value="compacto">Compacto</option>
-                        <option value="medio">Médio</option>
-                        <option value="grande">Grande</option>
-                    </select>
-
-                    <label for="estilo">Estilo e Design</label>
-                    <span class="interrogacao">?</span>
-                    <select id="estilo" name="estilo">
-                        <option value="selecione"></option>
-                        <option value="classico">Clássico</option>
-                        <option value="moderno">Moderno</option>
-                        <option value="esportivo">Esportivo</option>
-                    </select>
-
-                    <label for="preco">Faixa de Preço</label>
-                    <span class="interrogacao">?</span>
-                    <select id="preco" name="preco">
-                        <option value="selecione"></option>
-                        <option value="ate_50_mil">até R$50.000</option>
-                        <option value="entre_50_e_100_mil">entre R$50.000 e R$100.000</option>
-                        <option value="entre_100_e_200_mil">entre R$100.000 e R$200.000</option>
-                        <option value="acima_de_200_mil">acima de R$200.000</option>
-                    </select>    
-
-                    <button class="bt1">
-                        Buscar Veículo
-                        <span class="icone-car1"></span>
-                    </button>
-                </form>
-            </div>
-            <div class="coluna coluna-direita">
-                <img src="/imagens/carros3.jpg" alt="carros" style="max-width: 100%;">
-            </div>
-        </div>
-    </div>
+    </main>
 </body>
 <!--RODAPE-->
 <footer>

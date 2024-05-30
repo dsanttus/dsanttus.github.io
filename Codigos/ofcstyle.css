@@ -47,6 +47,10 @@ font-style: normal;
     box-sizing: border-box;
 }
 
+.espaco{
+    padding: 20px;
+}
+
 .carrosimg {
     display: flex;
 }

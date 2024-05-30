@@ -226,11 +226,12 @@ a {
 /*configuração que contem a div com o botao login*/
 
 .menu3 {
-  display: block;
+  display: flex;
   text-align: right;
   margin-left: auto;
   position: relative;
   padding-right: 10px;
+  gap: 20px;
 }
 
 .botao6 {
@@ -249,8 +250,6 @@ a {
 
 .login {
   width: 15px;
-  height:auto;
-  padding: 0;
   margin: 0 10px 0 0;
   vertical-align: middle;
 }
@@ -351,12 +350,10 @@ footer {
   min-height: 100%;
  }
 
-.container1 {
-  display: inline-block;
-  width: 700px;
-  height: 600px;
-  flex-wrap: wrap;
-  }
+ main {
+  width: 1350px;
+  margin: 0 auto;
+ }
 
 /*configuração div area1*/
 .area1 {
