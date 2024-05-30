@@ -82,7 +82,7 @@ header {
 /*configuração que contem a div com os botões que direcionam para as outras páginas*/
 
 .menu2{
-  display: flex;
+  display: inline-block;
   text-align: center;
   position: relative;
   gap: 20px;
