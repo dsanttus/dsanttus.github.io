@@ -61,6 +61,9 @@ header {
   position: relative;
 }
 
+a {
+  text-decoration: none;
+}
 
 /*configuração da div que contem o logotipo carconnect*/
 .menu1 {
@@ -81,19 +84,16 @@ header {
  
 /*configuração que contem a div com os botões que direcionam para as outras páginas*/
 
-.menu2{
-  display: inline-block;
+.menu2 {
+  display: flex;
   text-align: center;
   position: relative;
   gap: 20px;
 }
 
-a {
-  text-decoration: none;
-}
-
-.botao1  {
-  display: inline-block;
+.botao1 {
+  display: flex;
+  align-items: center;
   background-color: #04001E !important;
   color: white;
   font-family: "Days One", sans-serif;
@@ -119,7 +119,8 @@ a {
 }
 
 .botao2 {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   background-color: #04001E !important;
   color: white !important;
   font-family: "Days One", sans-serif;
@@ -146,7 +147,8 @@ a {
 }
 
 .botao3 {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   background-color: #04001E !important;
   color: white !important;
   font-family: "Days One", sans-serif;
@@ -172,7 +174,8 @@ a {
 }
 
 .botao4 {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   background-color: #04001E !important;
   color: white !important;
   font-family: "Days One", sans-serif;
@@ -198,7 +201,8 @@ a {
 }
 
 .botao5 {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   background-color: #04001E !important;
   color: white !important;
   font-family: "Days One", sans-serif;
@@ -234,7 +238,8 @@ a {
 }
 
 .botao6 {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   background-color: #006400;
   color: white;
   font-family: "Days One", sans-serif;
