@@ -231,7 +231,6 @@ a {
   margin-left: auto;
   position: relative;
   padding-right: 10px;
-  gap: 20px;
 }
 
 .botao6 {
@@ -255,6 +254,12 @@ a {
 }
 
 .botao6:hover {
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+
+.botao.active {
   background-color: white !important;
   color: black !important;
   font-weight: bold !important;
