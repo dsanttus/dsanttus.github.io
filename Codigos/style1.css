@@ -128,6 +128,10 @@ body {
     position: relative;
 }
 
+.linkcarconnect{
+    color: black;
+}
+
 .carconnect h1 {
     margin: 20px;
     padding: 20px;

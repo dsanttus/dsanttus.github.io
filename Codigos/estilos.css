@@ -355,6 +355,9 @@ footer {
   margin: 0 auto;
  }
 
+ .linkconectcar {
+  color: black;
+ }
 /*configuração div area1*/
 .area1 {
   display: flex;
