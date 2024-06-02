@@ -4,14 +4,14 @@
 }
 
 .right-side .input-box .error-message {
-  color: red; /* Define a cor do texto da mensagem de erro para vermelho */
-  font-size: 0.7em; /* Define o tamanho da fonte da mensagem de erro, menor */
-  margin-top: 5px; /* Adiciona um espaço entre o campo e a mensagem de erro */
-  position: absolute; /* Define a posição absoluta para que a mensagem fique dentro da caixa */
-  bottom: -20px; /* Ajusta a posição vertical da mensagem dentro da caixa */
-  left: 5px; /* Ajusta a posição horizontal da mensagem dentro da caixa */
-  max-width: 100%; /* Garante que a mensagem de erro não ultrapasse a largura da caixa */
-  white-space: nowrap; /* Impede que a mensagem de erro seja quebrada em várias linhas */
+  color: red; 
+  font-size: 0.7em; 
+  margin-top: 5px; 
+  position: absolute; 
+  bottom: -20px; 
+  left: 5px; 
+  max-width: 100%; 
+  white-space: nowrap; 
 }
 
 /* Outros estilos existentes permanecem inalterados */

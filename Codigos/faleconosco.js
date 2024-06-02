@@ -19,7 +19,7 @@ function showErrorMessage(input, message) {
 
 // Função para exibir mensagens de erro
 function showErrorMessage(element, message) {
-    element.classList.add('error'); // Adiciona a classe 'error' ao elemento
+    element.classList.add('error'); 
     const errorElement = document.createElement('div');
     errorElement.className = 'error-message';
     errorElement.innerText = message;
@@ -30,17 +30,17 @@ function showErrorMessage(element, message) {
 function clearErrorMessages(form) {
     const errorInputs = form.querySelectorAll('.error');
     errorInputs.forEach(input => {
-        input.classList.remove('error'); // Remove a classe 'error' dos elementos com erro
+        input.classList.remove('error'); 
         const errorMessage = input.parentNode.querySelector('.error-message');
         if (errorMessage) {
-            errorMessage.remove(); // Remove a mensagem de erro associada ao elemento
+            errorMessage.remove(); 
         }
     });
 }
 
 // Função para validar o formulário
 function validateForm(event) {
-    event.preventDefault(); // Evita o envio do formulário padrão
+    event.preventDefault(); 
     const form = event.target;
     const nameInput = form.querySelector('input[name="nome"]');
     const emailInput = form.querySelector('input[name="email"]');
@@ -68,9 +68,9 @@ function validateForm(event) {
     }
 
     if (valid) {
-        // Aqui você pode adicionar o código para enviar o formulário, como AJAX ou redirecionamento para uma página de confirmação.
+        
         console.log('Formulário válido, pronto para enviar.');
-        // Aqui, você pode adicionar a lógica para enviar o formulário, por exemplo, com AJAX.
+        
     }
 }
 
