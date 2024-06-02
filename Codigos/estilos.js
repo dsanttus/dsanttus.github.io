@@ -1,30 +1,42 @@
 document.addEventListener("DOMContentLoaded", function() {
     const urlToButtonClass = {
         "/Codigos/index.html": "botao1",
+        "/Codigos/index.html1": "botao1",
         "/Codigos/carconnect.html": "botao2",
+        "/Codigos/carconnect2.html": "botao2",
         "/Codigos/oficinas.html": "botao3",
         "/Codigos/quemsomos.html": "botao4",
         "/Codigos/faleconosco.html": "botao5",
-        "/Codigos/login.html": "botao6"
+        "/Codigos/login.html": "botao6",
+        "/Codigos/cadastro.html": "botao6"
     };
 
-    const currentPath = window.location.pathname;
-    let buttonClass = urlToButtonClass[currentPath];
+    function setActiveButton() {
+        const currentPath = window.location.pathname;
+        let buttonClass = urlToButtonClass[currentPath];
 
-    if (!buttonClass) {
-        // Obtém a classe do último botão clicado do localStorage
-        buttonClass = localStorage.getItem('lastButtonClicked');
-    } else {
-        // Armazena a classe do botão atual no localStorage
-        localStorage.setItem('lastButtonClicked', buttonClass);
-    }
+        if (!buttonClass) {
+            // Obtém a classe do último botão clicado do localStorage
+            buttonClass = localStorage.getItem('lastButtonClicked');
+        } else {
+            // Armazena a classe do botão atual no localStorage
+            localStorage.setItem('lastButtonClicked', buttonClass);
+        }
 
-    if (buttonClass) {
-        const botao = document.querySelector(`.${buttonClass}`);
-        if (botao) {
-            botao.classList.add("active");
+        if (buttonClass) {
+            const botao = document.querySelector(`.${buttonClass}`);
+            if (botao) {
+                // Remove a classe ativa de todos os botões
+                document.querySelectorAll('.botao').forEach(function(btn) {
+                    btn.classList.remove('active');
+                });
+                // Adiciona a classe ativa ao botão correspondente
+                botao.classList.add("active");
+            }
         }
     }
+
+    setActiveButton();
 
     // Adiciona eventos de clique a todos os botões para armazenar o último botão clicado
     const botoes = document.querySelectorAll(".botao");
@@ -33,9 +45,14 @@ document.addEventListener("DOMContentLoaded", function() {
             localStorage.setItem('lastButtonClicked', botao.className.split(' ')[1]);
         });
     });
+
+    // Escuta o evento de navegação de volta no histórico
+    window.addEventListener('popstate', function() {
+        setActiveButton();
+    });
 });
 
-/***************************** ESTILIZAÇAO DA PAGINA INDEX1.HTML******************************************/
+/***************************** ESTILIZAÇAO DA PAGINA INDEX1.HTML ******************************************/
 
 document.addEventListener('DOMContentLoaded', () => {
     const changeImage = (src, element) => {
@@ -54,9 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
             changeImage(src, this);
         });
     });
-
 });
-
 
 let currentIndex = 0;
 const images = [
@@ -119,14 +134,14 @@ function expandImage() {
     connectButton.innerText = 'Conectar';
     connectButton.onclick = function(event) {
         event.stopPropagation();
-        window.location.href = '/codigos/login.html';
+        window.location.href = '/Codigos/login.html';
     };
 
     var voltarButton = document.createElement('button');
     voltarButton.innerText = 'Voltar';
     voltarButton.onclick = function(event) {
         event.stopPropagation();
-        window.location.href = '/codigos/index.html';
+        window.location.href = '/Codigos/index.html';
     };
 
     var backButton = document.createElement('button');
@@ -139,9 +154,13 @@ function expandImage() {
     buttonsDiv.appendChild(connectButton);
     buttonsDiv.appendChild(voltarButton);
     buttonsDiv.appendChild(backButton);
-    
 
     expandedDiv.appendChild(buttonsDiv);
+
+    // Escuta o evento de navegação de volta no histórico
+    window.addEventListener('popstate', function() {
+        setActiveButton();
+    });
 
     // Fechar imagem expandida ao clicar fora da imagem //
     expandedDiv.addEventListener('click', function() {
@@ -152,25 +171,25 @@ function expandImage() {
 
     // Fechar imagem expandida ao pressionar a tecla ESC //
     document.addEventListener('keydown', function(event) {
-    if (event.key === 'Escape') {
-        if (document.body.contains(expandedDiv)) {
-            document.body.removeChild(expandedDiv);
+        if (event.key === 'Escape') {
+            if (document.body.contains(expandedDiv)) {
+                document.body.removeChild(expandedDiv);
+            }
         }
-    }
     });
 
     function navigateImages(direction) {
-    currentIndex = (currentIndex + direction + images.length) % images.length;
-    var expandedImage = document.querySelector('.expanded img');
-    var altText = document.querySelector('.expanded .description');
-    expandedImage.src = images[currentIndex].src;
-    altText.innerText = images[currentIndex].alt;
+        currentIndex = (currentIndex + direction + images.length) % images.length;
+        var expandedImage = document.querySelector('.expanded img');
+        var altText = document.querySelector('.expanded .description');
+        expandedImage.src = images[currentIndex].src;
+        altText.innerText = images[currentIndex].alt;
     }
 
     function changeImage(index) {
-    currentIndex = index;
-    var mainImage = document.getElementById('mainImage');
-    mainImage.src = images[currentIndex].src;
-    mainImage.alt = images[currentIndex].alt;
+        currentIndex = index;
+        var mainImage = document.getElementById('mainImage');
+        mainImage.src = images[currentIndex].src;
+        mainImage.alt = images[currentIndex].alt;
     }
 }

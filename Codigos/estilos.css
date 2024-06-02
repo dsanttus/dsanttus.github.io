@@ -545,7 +545,7 @@ footer {
 
 /************** ESPAÇO RESERVADO PARA ESTILIZAÇÃO DA PÁGINA INDEX1.HTML ****************/
 
-.carconnect {
+.carconnect-gallery {
   margin: 20px;
   padding: 20px;
   color: black;
@@ -703,3 +703,4 @@ main .gallery-carro {
 .expanded .buttons button:hover {
   background-color: #E7E6E6;
 }
+
