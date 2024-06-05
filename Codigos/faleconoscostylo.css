@@ -1,3 +1,4 @@
+css
 /* Classes de erro para mensagens dentro das caixas de formulário */
 .error {
   border: 2px solid red; /* Adiciona uma borda vermelha nos campos com erro */
@@ -12,6 +13,26 @@
   left: 5px; 
   max-width: 100%; 
   white-space: nowrap; 
+}
+
+/* Classe para quando o formulário for enviado com sucesso */
+.success {
+  background-color: #5cb85c; 
+  transition: background-color 0.5s ease; 
+}
+
+/* Estilo para a mensagem de sucesso */
+.success-message {
+  color: white; 
+  font-size: 0.7em; 
+  margin-top: 5px; 
+  max-width: 100%; 
+  white-space: nowrap; 
+  text-align: center; 
+  padding: 8px 16px; 
+  border-radius: 6px; 
+  background-color: #5cb85c; 
+  transition: background-color 0.5s ease; 
 }
 
 /* Outros estilos existentes permanecem inalterados */

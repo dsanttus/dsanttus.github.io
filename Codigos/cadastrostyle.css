@@ -1,46 +1,3 @@
-/* FONTES IMPORTADAS DO GOOGLE FONTS ***********************************************************/
-
-.days-one-regular {
-    font-family: "Days One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .arrimo {
-    font-family: "Arimo", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-  }
-  
-  .faster-one {
-    font-family: "Faster One", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }  
-  
-  .teko {
-    font-family: "Teko", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-  }
-  
-  .exo {
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-  }
-  
-  .poppins-thin {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-  }
-
-/* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CORPO DO SITE // PÁGINA CADASTRO.HTML*****************/
-
 /* Estilo para o formulário de cadastro */
 
 body, html {
@@ -81,8 +38,16 @@ main {
 .form input {
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
     border-radius: 5px;
+    border: 1px solid #ccc; 
+}
+
+.form input.error {
+    border-color: red; 
+}
+
+.form input.success {
+    border-color: green; 
 }
 
 .form button {
@@ -111,4 +76,3 @@ main {
 .form p a:hover {
     text-decoration: underline;
 }
-

@@ -42,73 +42,78 @@ font-style: normal;
 /* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CORPO DO SITE // PÁGINA LOGIN.HTML*****************/
 
 body, html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        font-family: "Poppins" , sans-seri
-      }
-      
-     
-      
-      main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 80%;
-      }
-      
-      .container {
-        width: 400px;
-      }
-      
-      .form-container {
-        background-color: #f9f9f9;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-      
-      .form {
-        display: flex;
-        flex-direction: column;
-      }
-      
-      .form h2 {
-        margin-bottom: 20px;
-        text-align: center;
-      }
-      
-      .form input {
-        margin-bottom: 10px;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-      }
-      
-      .form button {
-        padding: 10px;
-        border: none;
-        border-radius: 5px;
-        background-color: #078D2D;
-        color: #fff;
-        cursor: pointer;
-      }
-      
-      .form button:hover {
-        background-color: #078D2D;
-      }
-      
-      .form p {
-        margin-top: 10px;
-        text-align: center;
-      }
-      
-      .form p a {
-        color: #007bff;
-        text-decoration: none;
-      }
-      
-      .form p a:hover {
-        text-decoration: underline;
-      }
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Poppins" , sans-serif;
+  }
+  
+ 
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+  }
+  
+  .container {
+    width: 400px;
+  }
+  
+  .form-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
 
+  .form input.error {
+    border: 2px solid red;
+  }
+
+  .form input.success {
+    border: 2px solid green;
+  }
+  
+  .form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #078D2D;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #078D2D;
+  }
+  
+  .form p {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .form p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .form p a:hover {
+    text-decoration: underline;
+  }

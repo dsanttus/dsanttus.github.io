@@ -27,12 +27,22 @@ function validateForm(event) {
 
     if (!validateEmail(emailInput.value)) {
         showErrorMessage(emailInput, 'Por favor, insira um e-mail válido.');
+        emailInput.classList.remove('success'); // Remove classe de sucesso
+        emailInput.classList.add('error'); // Adiciona classe de erro
         valid = false;
+    } else {
+        emailInput.classList.remove('error'); // Remove classe de erro
+        emailInput.classList.add('success'); // Adiciona classe de sucesso
     }
 
-    if (passwordInput.value.length < 5) {
-        showErrorMessage(passwordInput, 'A senha deve ter pelo menos 5 caracteres.');
+    if (passwordInput.value.length < 8) {
+        showErrorMessage(passwordInput, 'A senha deve ter pelo menos 8 caracteres.');
+        passwordInput.classList.remove('success'); // Remove classe de sucesso
+        passwordInput.classList.add('error'); // Adiciona classe de erro
         valid = false;
+    } else {
+        passwordInput.classList.remove('error'); // Remove classe de erro
+        passwordInput.classList.add('success'); // Adiciona classe de sucesso
     }
 
     if (valid) {
