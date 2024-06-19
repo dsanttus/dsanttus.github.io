@@ -1,4 +1,3 @@
-css
 /* Classes de erro para mensagens dentro das caixas de formulário */
 .error {
   border: 2px solid red; /* Adiciona uma borda vermelha nos campos com erro */
@@ -97,16 +96,18 @@ main {
 }
 
 .right-side .button {
-  display: inline-block;
+  display: flex;
+  justify-content: flex-start; /* Alinha o botão à esquerda */
   margin-top: 12px;
+  position: relative;
 }
 
 .right-side .button input[type="submit"] {
   color: #fff;
-  font-size: 18px;
+  font-size: 14px; /* Diminui o tamanho da fonte */
   outline: none;
   border: none;
-  padding: 8px 16px;
+  padding: 6px 12px; /* Ajusta o padding para diminuir o tamanho do botão */
   border-radius: 6px;
   background: #078d2d;
   cursor: pointer;
@@ -115,6 +116,13 @@ main {
 
 .right-side .button input[type="submit"]:hover {
   background: #08cc3f;
+}
+
+/* Ajuste para a mensagem de sucesso acima do botão */
+.right-side .button .success-message {
+  position: absolute;
+  top: -40px; /* Ajusta a posição acima do botão */
+  width: 100%;
 }
 
 .texto {

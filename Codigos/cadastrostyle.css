@@ -60,7 +60,7 @@ main {
 }
 
 .form button:hover {
-    background-color: #078D2D;
+    background-color: #056b24;
 }
 
 .form p {
@@ -75,4 +75,9 @@ main {
 
 .form p a:hover {
     text-decoration: underline;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
 }

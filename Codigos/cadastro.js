@@ -1,9 +1,10 @@
 function showErrorMessage(element, message) {
     const errorElement = document.createElement('div');
     errorElement.className = 'error-message';
-    errorElement.style.color = 'red';
     errorElement.innerText = message;
     element.parentNode.insertBefore(errorElement, element.nextSibling);
+    element.classList.add('error');
+    element.classList.remove('success');
 }
 
 function clearErrorMessages(form) {
@@ -12,7 +13,10 @@ function clearErrorMessages(form) {
 
     // Remover a classe de erro dos inputs
     const inputs = form.querySelectorAll('input');
-    inputs.forEach(input => input.classList.remove('error'));
+    inputs.forEach(input => {
+        input.classList.remove('error');
+        input.classList.remove('success');
+    });
 }
 
 function validateForm(event) {
@@ -37,7 +41,15 @@ function validateForm(event) {
         nameInput.classList.add('success'); // Adiciona a classe de sucesso
     }
 
-    // Validating email - não será validado o formato de e-mail
+    // Validating email
+    const emailValue = emailInput.value.trim();
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailPattern.test(emailValue)) {
+        showErrorMessage(emailInput, 'Por favor, insira um e-mail válido.');
+        valid = false;
+    } else {
+        emailInput.classList.add('success'); // Adiciona a classe de sucesso
+    }
 
     // Validating password
     if (passwordInput.value.length < 8) {

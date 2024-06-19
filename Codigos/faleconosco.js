@@ -15,15 +15,8 @@ function showErrorMessage(input, message) {
     } else {
         errorElement.innerText = message;
     }
-}
-
-// Função para exibir mensagens de erro
-function showErrorMessage(element, message) {
-    element.classList.add('error'); // Adiciona a classe 'error' ao elemento
-    const errorElement = document.createElement('div');
-    errorElement.className = 'error-message';
-    errorElement.innerText = message;
-    element.parentNode.insertBefore(errorElement, element.nextSibling);
+    input.classList.add('error');
+    input.classList.remove('success');
 }
 
 // Função para exibir mensagens de sucesso
@@ -31,7 +24,8 @@ function showSuccessMessage(message, form) {
     const successElement = document.createElement('div');
     successElement.className = 'success-message';
     successElement.innerText = message;
-    form.parentNode.insertBefore(successElement, form.nextSibling); // Adiciona a mensagem de sucesso após o formulário
+    const buttonContainer = form.querySelector('.button');
+    buttonContainer.insertBefore(successElement, buttonContainer.firstChild); // Adiciona a mensagem de sucesso antes do botão de envio
     setTimeout(() => {
         successElement.remove(); // Remove a mensagem de sucesso após um período de tempo
     }, 3000); // Tempo em milissegundos (3 segundos)
@@ -64,18 +58,24 @@ function validateForm(event) {
     if (nameInput.value.trim().length < 3) {
         showErrorMessage(nameInput, 'Por favor, insira um nome válido (mínimo de 3 caracteres).');
         valid = false;
+    } else {
+        nameInput.classList.add('success');
     }
 
     // Validação do e-mail
     if (!validateEmail(emailInput.value)) {
         showErrorMessage(emailInput, 'Por favor, insira um e-mail válido.');
         valid = false;
+    } else {
+        emailInput.classList.add('success');
     }
 
     // Validação da mensagem
     if (messageInput.value.trim().length < 10) {
         showErrorMessage(messageInput, 'A mensagem deve ter pelo menos 10 caracteres.');
         valid = false;
+    } else {
+        messageInput.classList.add('success');
     }
 
     if (valid) {
