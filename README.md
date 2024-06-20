@@ -18,8 +18,8 @@ https://www.figma.com/file/SIvh2U8EfUGRAM9hRad9c3/connect-car?type=design&node-i
 🖇️ Idealizado por:
 
 Caroline Guedes
-Daniel Santos
-Rhaissa Albuqueque
+,Daniel Santos
+,Rhaissa Albuqueque
 
 📄 Para ver on-line:
 
