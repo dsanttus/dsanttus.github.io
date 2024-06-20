@@ -264,6 +264,9 @@ select:hover {
 
 
 
+/* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CORPO DO SITE // PÁGINA CARCONNECT2.HTML*****************/
+
+
 
 .carconnect2 {
     margin: 0;
@@ -293,58 +296,65 @@ select:hover {
 }
 
 .container-car2 {
-    text-align: center;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
 }
 
 .imagem-car2 {
-    display: inline-block;
-    margin: 10px;
-    margin-bottom: 5px;
-    margin-right: 5%;
+    background-color: hsla(180, 8%, 88%, 0.281);
+    align-items: center;
+    margin-top: 40px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px 0px 10px 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 1.2);
+}
+
+.imagem-car2:hover {
+    background-color: hsla(98, 94%, 56%, 0.836);
 }
 
 .imagem-car2 img {
-    width: 220px;
+    width: 320px;
     height: auto;
-    margin-bottom: -35px;
+    padding-top: 80px;
 }
 
 .botoes-car2 {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 10px 0px 0px 200px;
 }
 
 .botoes-car2 .bt2 {
     background-color: #d7d7d7;
     color: black;
     font-family: "Faster One", system-ui;
-    padding: 10px 70px 10px 30px;
+    padding: 3px 35px 3px 12px;
     font-size: 120%;
     border: none;
     border-radius: 80px;
     cursor: pointer;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 1.2);
     position: relative;
-    margin-right: 5%;
-    margin-left: 1%;
+    margin: 0px 200px 0px 0px;
+}
+
+.botoes-car2 .bt2:hover {
+    background-color: hsla(98, 94%, 56%, 0.836);
+    color: black;
 }
 
 .bt2 .icone-car2 {
     position: absolute;
     top: 44%;
-    right: 10px;
+    right: 3px;
     transform: translateY(-50%);
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-image: url("/imagens/icone-logo-button.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-/* ESPAÇO RESERVADO PARA FORMATAÇÃO DO CORPO DO SITE // PÁGINA CARCONNECT2.HTML*****************/
-
-
 
 
 
